@@ -1,0 +1,30 @@
+.card {
+  max-width: 400px;
+  margin: 16px;
+}
+
+.mat-card-header {
+  text-align: center;
+}
+
+.mat-card-title {
+  font-size: 20px;
+}
+
+.mat-card-content {
+  padding: 16px;
+}
+
+.mat-card-image {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.mat-card-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  margin-right: 16px;
+}

@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'parcial';
+  title = 'Ember';
+  options = [
+    {path: '/home', title: 'Home'},
+    {path: '/store/bundles', title: 'Bundles'},
+  ]
 }

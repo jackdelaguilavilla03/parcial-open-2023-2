@@ -1,0 +1,14 @@
+<mat-card class="card">
+  <mat-card-header>
+    <mat-card-title>{{ bundle.title }}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image [src]="bundle.photoUrl" alt="{{ bundle.title }}">
+  <mat-card-content>
+    <p>{{ bundle.description }}</p>
+    <p>Price: ${{ bundle.price }}</p>
+    <p>Rating: {{ bundle.rating }}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button color="primary">Buy Now</button>
+  </mat-card-actions>
+</mat-card>
