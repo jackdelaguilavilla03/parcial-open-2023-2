@@ -18,9 +18,11 @@ export class BundlesComponent implements OnInit {
     }
 
     private loadBundles(): void {
-        this.bundlesService.getAll().subscribe(bundle => {
-            this.bundles.push(bundle);
-            console.log(bundle);
+        this.bundlesService.getAll().subscribe(bundles => {
+            this.bundles.push(...bundles);
+            console.log('Bundles cargados:', this.bundles);
         });
+
     }
+
 }

@@ -4,6 +4,7 @@ export class Bundle {
   description: string;
   photoUrl: string;
   price: number;
+  youSave: number;
   rating: number;
 
   constructor() {
@@ -12,6 +13,7 @@ export class Bundle {
     this.description = 'description';
     this.photoUrl = 'photoUrl';
     this.price = 0;
+    this.youSave = 0;
     this.rating = 0;
   }
 

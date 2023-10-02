@@ -11,13 +11,15 @@ import {MatButtonModule} from "@angular/material/button";
 import {CardBundleComponent} from './store/components/card-bundle/card-bundle.component';
 import {MatCardModule} from "@angular/material/card";
 import {HttpClientModule} from "@angular/common/http";
+import { PageNotFoundComponent } from './public/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     BundlesComponent,
-    CardBundleComponent
+    CardBundleComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
